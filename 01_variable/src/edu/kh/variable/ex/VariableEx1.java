@@ -10,7 +10,7 @@ public class VariableEx1 {
 		// 자료형(data type)
 		// 변수 또는 값의 크기와 형식
 		
-		/* 자바 기본 자료형(Java Primitive Types) *
+		/* 자바 기본 자료형(Java Primitive Types) !!!외우세요 * 
 		 * 
 		 * [논리형]
 		 * boolean (1byte) - true / false

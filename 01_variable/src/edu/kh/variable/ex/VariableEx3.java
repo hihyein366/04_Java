@@ -81,13 +81,10 @@ public class VariableEx3 {
 		
 		byte temp1 = 127;
 		
-		byte temp2 = (byte)(temp1 + 1); // int 결과 byte로 강제 형변환
+		byte temp2 = (byte)(temp1 + 1); // int 결과 byte로 강제 형변환. ~127까지인 범위를 한칸 초과.
 		
-		System.out.println("temp1 : " + temp1);
-		System.out.println("temp3 : " + temp2);
- 		
-		
-		
+		System.out.println("temp1 : " + temp1); // 127
+		System.out.println("temp3 : " + temp2); // -128
 		
 		
 	}
