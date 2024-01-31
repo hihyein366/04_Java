@@ -98,7 +98,6 @@ public class OperatorEx {
 		
 //		String result = (input == 0) ? "0" : (input % 2 == 0 ? "짝수" : "홀수");
 		
-		0.
 		
 		
 		System.out.printf("%d는 %s 입니다.", input, result);
