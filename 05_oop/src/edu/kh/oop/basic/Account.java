@@ -1,7 +1,7 @@
 package edu.kh.oop.basic;
 
 /**
- * 계좌 클라스 보소
+ * 계좌 클라스 보소 (계좌 클래스)
  */
 public class Account {
 	
@@ -40,6 +40,7 @@ public class Account {
 	public String getName() {
 		return name; // Void methods cannot return a value
 	}
+
 	
 	
 	/* this : 현재 객체 */
@@ -64,7 +65,6 @@ public class Account {
 	public long getBalance() {
 		return balance;
 	}
-	
 	
 	
 	/**
@@ -94,7 +94,7 @@ public class Account {
 		// - 기본(자료형) 비교는 ==
 		// - 객체(참조형) 비교는 A.equals(B)
 		
-		// - 현재 계좌 비번과 전달 받은 비번 같을 경우 true. false
+		// - 현재 계좌 비번과 전달 받은 비번 같을 경우 true. 아니면 false
 		
 		if(!password.equals(pw)) {
 			System.out.println("비번 불일치");
@@ -114,12 +114,7 @@ public class Account {
 		System.out.println(name + "의 현재 잔액 : " + balance);
 		
 		
-		
 	}
-	
-	
-	
-	
 	
 	
 }
