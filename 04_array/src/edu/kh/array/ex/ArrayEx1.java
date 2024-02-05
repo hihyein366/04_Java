@@ -76,7 +76,7 @@ public class ArrayEx1 {
 	/**
 	 * 정수 4개를 입력 받아
 	 * 배열에 차례대로 대입 후
-	 * 결과를 대버그 모드로 확인
+	 * 결과를 디버그 모드로 확인
 	 */
 	public void method2() {
 		
@@ -92,7 +92,7 @@ public class ArrayEx1 {
 			arr[i] = sc.nextInt(); // i번째 인덱스 요소에 입력값 대입
 			
 			
-		}
+		} 
 		// 해당 구문 수행 전 break point 작성해서 멈춤
 		System.out.println("결과 확인");
 	}
@@ -141,27 +141,7 @@ public class ArrayEx1 {
 		System.out.println(Arrays.toString(randoms));
 		
 		
-		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 }

@@ -56,7 +56,7 @@ public class VariableEx3 {
 		int num3 = 5;
 		int num4 = 2;
 		
-		System.out.println(num3 / num4); // 5/3 == 2.5 지만 int 라 2 출력.
+		System.out.println(num3 / num4); // 5/2 == 2.5 지만 int 라 2 출력.
 		
 		System.out.println( (double)(num3 / num4)); // 2.0 이 됨. (결과만 double)
 		

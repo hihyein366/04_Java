@@ -27,6 +27,7 @@ public class OperatorEx {
 		
 		System.out.printf("%d는 3의 배수 : %b", input, isTrue);
 		
+		
 	}
 	
 	/**

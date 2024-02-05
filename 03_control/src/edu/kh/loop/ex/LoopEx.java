@@ -17,6 +17,7 @@ public class LoopEx {
 		}
 	}
 	
+	
 	/**
 	 * 첫 번째 입력 받은 수 부터
 	 * 두 번째 입력 받은 수 까지
@@ -130,6 +131,7 @@ public class LoopEx {
 		}
 		
 	}
+	
 	
 	/**
 	 * 최대, 최소값 구하기 (Math)

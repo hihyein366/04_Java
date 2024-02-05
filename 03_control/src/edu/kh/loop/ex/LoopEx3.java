@@ -99,15 +99,5 @@ public class LoopEx3 {
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }

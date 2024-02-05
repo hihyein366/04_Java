@@ -91,7 +91,7 @@ public class ArrayPractice {
 		int[] arr = new int[len];
 		
 		for(int i=0; i<arr.length; i++) {
-			System.out.printf("배열 %d번쩨 인덱스에 넣을 값 : ", i);
+			System.out.printf("배열 %d번째 인덱스에 넣을 값 : ", i);
 			arr[i] = sc.nextInt();
 		}
 		

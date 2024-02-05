@@ -19,7 +19,7 @@ public class ConditionEx {
 		int age = sc.nextInt();
 		
 		if(age >= 19) {
-			System.out.println("성인");;
+			System.out.println("성인");
 		} else {
 			System.out.println("성인이 아니무니다");
 		}

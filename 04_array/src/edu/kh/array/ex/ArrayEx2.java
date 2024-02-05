@@ -58,7 +58,7 @@ public class ArrayEx2 {
 		
 		// 모든 배열의 0번 인덱스 값 변경
 		arr1[0] = 999;
-		arr2[0] = 888;
+		arr2[1] = 888;
 		arr3[0] = 777;
 		
 		System.out.println("----------------------------");
