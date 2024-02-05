@@ -1,5 +1,7 @@
 package edu.kh.oop.method;
 
+
+// 정보 저장하는 곳
 public class Student {
 	
 	public static String schoolNama = "젤리대학교";
