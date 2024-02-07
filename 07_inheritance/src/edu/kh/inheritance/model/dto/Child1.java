@@ -15,6 +15,7 @@ public class Child1 extends Parent {
 		
 		/* super() : super 생성자 / 부모 생성자 */
 		// - 자식 객체 생성 시 부모 생성자를 호출하는 생성자
+		// - super() 생성자는 항상 자식 생성자 첫번째 줄에 작성
 		super();
 		
 		System.out.println("Child1 기본 생성자로 생성");
@@ -51,7 +52,7 @@ public class Child1 extends Parent {
 	}
 	
 	
-	// 부모로부터 상속 받은 introduce 메서드 오버라이딩 하기
+	// 부모로부터 상속 받은 introduce 메서드 오버라이딩(재정의) 하기
 	
 	public String introduce() {
 		return "Child1 이다";
@@ -63,8 +64,19 @@ public class Child1 extends Parent {
 	@Override
 	public String toString() {
 		return super.toString() + "\nChild1.toString() : " + computer;
-								// Parent.toString();
+				// Parent.toString();
 							
+	}
+	
+	
+	
+	/* final 메서드 -> 오버라이딩 불가
+	 * 
+	 * - 메서드의 기능이 변하면 안되는 경우
+	 *   
+	 */
+	public final void onlyChild1() {
+		System.out.println("final 메서드 입니다");
 	}
 	
 	
