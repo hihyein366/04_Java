@@ -40,9 +40,9 @@ public abstract class Animal {
 	// abstract : 추상
 	// abstract 메서드 : 추상 메서드 -> 코드를 정의하는 {}가 없는 메서드
 	
-	public void eat();
+	public abstract void eat();
 	
-	public void sleep();
+	public abstract void sleep();
 	
 	// abstract 메서드 정상적으로 작성했는데 오류나는 이유
 	// -> 현재 클래스가 추상 클래스가 아니라서 오류 발생

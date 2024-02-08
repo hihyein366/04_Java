@@ -7,19 +7,26 @@ public class hhehe {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		while(true) {
-			System.out.print("2~9 사이 입력 : ");
-			
-			int input = sc.nextInt();
-			
-			if(input >= 2 && input <= 9) {
-				for(int num=1; num<=9; num++) {
-					System.out.printf("%d * %d = %d\n", input, num, input*num);
-				}
+		String[] memberArr = {"홍길동", "김성훈", "윤웅식", "윤성우", "남궁인"};
+	
+		System.out.print("검색 회원 입력 : ");
+		
+		String searchName = sc.next();
+		
+		boolean result = false;
+		
+		for(int i=0; i < memberArr.length; i++) {
+			if(memberArr[i].equals(searchName)) {
+				result = true;
 				break;
-			} else {
-				System.out.println("2이상 9이하");
 			}
+		}
+			
+		if(result) {
+			System.out.println("회원 존재함");
+		} else {
+			System.out.println("회원 안존재");
+			
 		}
 	}
 
