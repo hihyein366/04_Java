@@ -66,10 +66,13 @@ public class JHICalculator implements Calculator, Machine {
 	public int pow(int a, int x) {
 		
 		// 방법 1)
-		int result = 1;
-
-		for(int i=0; i<x; i++) result *= a;
-		return result;
+//		int result = 1;
+//		for(int i=0; i<x; i++) result *= a;
+//		return result;
+		
+		// 방법 2)
+		
+		
 	}
 
 	@Override

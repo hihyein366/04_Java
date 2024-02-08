@@ -7,7 +7,12 @@ public class CalculatorRun {
 	
 	public static void main(String[] args) {
 		
-		Calculator cal = new JHICalculator();
+		// 인터페이스 장점 :
+		// 상속 받은 클래스들의 형태가 똑같거나 비슷하기 때문에 코드 유지 보수 시
+		// 참조하는 객체만 변경하면 유지 보수가 완료된다
+		
+//		Calculator cal = new JHICalculator();
+		Calculator cal = new JHICalculator2();
 		
 		System.out.println(cal.plus(1, 2));
 		System.out.println(cal.minus(10, 7));
