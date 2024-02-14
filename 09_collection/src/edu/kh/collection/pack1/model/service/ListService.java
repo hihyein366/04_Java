@@ -53,7 +53,6 @@ public class ListService {
 		
 		// 2. E get(int index) : List에서 index번째 요소 반환 찾기
 		
-		
 		// 3. int size() : List에 저장된 요소(객체)의 개수를 반환
 		
 		System.out.println("저장된 개수 : " + list.size()); // 5
