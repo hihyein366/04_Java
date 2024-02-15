@@ -255,24 +255,7 @@ public class JavaAPIService {
 			System.out.println(str);
 		}
 		
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}	
 	
 
 }
